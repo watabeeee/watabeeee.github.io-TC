@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Yu Gothic';
+}
+
+.ef {
+  opacity: 0;
+  transform : translate(0, 100px);
+  transition : all 800ms;
+}
+
+.ef.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
+/*トップ*/
+.top-wrapper{
+  background-image: url(https://github.com/watabeeee/watabeeee.github.io-TC/blob/main/jukan-tateisi-bJhT_8nbUA0-unsplash.jpg?raw=true);
+  background-size: cover;
+  position: relative;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-wrapper::before{
+  background-color: rgba(0, 0, 0, 0.233);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+.top-texts{
+  letter-spacing: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 550;
+  font-size: 55px;
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+/*イントロダクション*/
+.introduction-wrapper{
+  text-align: center;
+  font-size: 35px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.introduction-wrapper p{
+  padding-bottom: 10px;
+  letter-spacing: 2px;
+}
+span{
+  color: rgb(223, 55, 55);
+  font-weight: 600;
+  font-size: 38px;
+  }
+
+/*サービス*/
+.service-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.service-title{
+  font-size: 43px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-weight: 570;
+  border-bottom: 1px solid #000;
+}
+.services{
+  display: flex;
+  flex-wrap: wrap;
+}
+.service{
+  width: 50%;
+}
+.service img{
+  width: 90%;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.8);
+  margin: 0 auto;
+  transition: 0.7s;
+}
+.service img:hover{
+  width: 93%;
+  box-shadow: 0px 0px 25px -5px rgba(0, 0, 0, 0.918);
+}
+.service h3{
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.service p{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+/*モーダル*/
+.apply{
+  margin: 100px auto;
+  text-align: center;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid #000;
+  background-color: rgba(223, 223, 223, 0.103);
+}
+.apply h2{
+  padding: 20px 0;
+  font-size: 45px;
+  font-weight: normal;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form-control{
+  width: 70%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+#submit-btn{
+  padding: 10px 100px;
+  background-color: rgb(25, 0, 252);
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: 1s;
+  cursor: pointer;
+}
+#submit-btn:hover{
+  background-color: rgba(25, 0, 252, 0.637);
+  padding: 10px 106px;
+}
+
+/*フッター*/
+footer{
+  text-align: center;
+}
