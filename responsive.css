@@ -1,0 +1,225 @@
+@media (max-width: 1000px){
+  .top-texts{
+    letter-spacing: 6px;
+    font-size: 42px;
+  }
+  .top-wrapper{
+    height: 460px;
+  }
+  .introduction-wrapper{
+    font-size: 29px;
+  }
+  .introduction-wrapper p{
+    letter-spacing: 0;
+  }
+  span{
+    font-size: 34px;
+    }
+  .service-title{
+      font-size: 38px;
+      letter-spacing: 0;
+    }
+  .apply h2{
+      font-size: 35px;
+    }
+}
+@media (max-width: 800px){
+  .top-texts{
+    letter-spacing: 5px;
+    font-size: 39px;
+  }
+  .introduction-wrapper{
+    font-size: 25px;
+  }
+  .apply h2{
+    font-size: 30px;
+  }
+}
+@media (max-width: 700px){
+  .top-texts{
+    letter-spacing: 3px;
+    font-size: 30px;
+  }
+  .top-wrapper{
+    height: 350px;
+  }
+  .introduction-wrapper{
+    font-size: 20px;
+    height: 300px;
+  }
+  span{
+    font-size: 24px;
+    }
+  .service-title{
+    font-size: 30px;
+    }
+  .service h3{
+    font-size: 26px;
+    letter-spacing: 0;
+    }
+  .service p{
+    font-size: 12px;
+    }
+  .apply{
+      margin: 70px auto;
+    }
+  .apply h2{
+    font-size: 23px;
+    }
+  #submit-btn{
+    padding: 10px 70px;
+    font-size: 15px;
+    }
+  #submit-btn:hover{
+    padding: 10px 76px;
+    }
+}
+@media (max-width: 550px){
+  .top-texts{
+    letter-spacing: 3px;
+    font-size: 24px;
+  }
+  .top-wrapper{
+    height: 290px;
+  }
+  .introduction-wrapper{
+    font-size: 17px;
+    height: 250px;
+  }
+  span{
+    font-size: 18px;
+    }
+  .service-title{
+    font-size: 24px;
+    }
+  .service h3{
+    font-size: 20px;
+    }
+  .service p{
+    font-size: 10px;
+    }
+  .apply{
+      margin: 60px auto;
+    }
+  .apply h2{
+    font-size: 19px;
+    }
+  .form-control{
+    height: 20px;
+    margin-bottom: 15px;
+    font-size: 11px;
+    }
+  #submit-btn{
+    padding: 6px 50px;
+    font-size: 14px;
+    }
+  #submit-btn:hover{
+    padding: 6px 56px;
+    }
+  footer{
+    font-size: 12px;
+    }
+}
+@media (max-width: 450px){
+  .top-texts{
+    letter-spacing: 2px;
+    font-size: 21px;
+  }
+  .top-wrapper{
+    height: 250px;
+  }
+  .introduction-wrapper{
+    font-size: 15px;
+    height: 210px;
+  }
+  span{
+    font-size: 16px;
+    }
+  .service{
+    width: 100%;
+    }
+  .service img{
+    width: 75%;
+    }
+  .service img:hover{
+    width: 78%;
+    }
+  .service-title{
+    font-size: 20px;
+    }
+  .service h3{
+    font-size: 20px;
+    }
+  .service p{
+    font-size: 9px;
+    }
+  .apply{
+      margin: 50px auto;
+    }
+  .apply h2{
+    font-size: 17px;
+    }
+  .form-control{
+    height: 18px;
+    margin-bottom: 13px;
+    font-size: 10px;
+    }
+  #submit-btn{
+    padding: 4px 40px;
+    font-size: 12px;
+    }
+  #submit-btn:hover{
+    padding: 4px 46px;
+    }
+  footer{
+    font-size: 9px;
+    }
+}
+@media (max-width: 400px){
+  .top-texts{
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-bottom: 14px;
+  }
+  .top-wrapper{
+    height: 200px;
+  }
+  .introduction-wrapper{
+    font-size: 12px;
+    height: 170px;
+  }
+  span{
+    font-size: 13px;
+    }
+  .service-title{
+    font-size: 17px;
+    }
+  .service h3{
+    font-size: 17px;
+    }
+  .service p{
+    margin-bottom: 28px;
+    }
+  .apply{
+      margin: 30px auto;
+      width: 70%;
+    }
+  .apply h2{
+    font-size: 15px;
+    padding: 10px 0;
+    }
+  .form-control{
+    height: 16px;
+    margin-bottom: 14px;
+    font-size: 9px;
+    width: 75%;
+    }
+  #submit-btn{
+    padding: 3px 38px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    }
+  #submit-btn:hover{
+    padding: 3px 42px;
+    }
+}
